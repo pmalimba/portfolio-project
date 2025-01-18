@@ -45,7 +45,7 @@ p {
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: 24px;
-  line-height: 2;
+  line-height: 1.4;
 }
 .btn-branding {
   background: var(--primary-color);
@@ -56,16 +56,24 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-.img-fluid {
-  height: 75px;
-  width: 100px;
-}
+
 .project-description {
   padding: 120px 60px;
 }
 @media (max-width: 900px) {
+  h1 {
+    line-height: 2;
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 44px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
+    font-size: 60px;
+  }
+  .hero {
+    padding: 80px 20px;
   }
 }
