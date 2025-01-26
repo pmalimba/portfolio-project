@@ -17,6 +17,9 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: lighter;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-weight: normal;
 }
@@ -111,6 +114,36 @@ nav ul {
   padding: 0;
   margin: 0;
 }
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 5px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-links {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-links:hover {
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  padding-right: 40px;
+}
 @media (max-width: 900px) {
   .logo {
     max-height: 40px;
@@ -121,6 +154,9 @@ nav ul {
   }
   h2 {
     font-size: 30px;
+  }
+  h4 {
+    font-size: 26px;
   }
   .project-description {
     padding: 0;
